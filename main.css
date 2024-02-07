@@ -105,7 +105,7 @@ div{
 
 @media screen and (max-width : 1200px) {
     .main-title{
-        font-size: 40px;    
+        font-size: 50px;    
     }
     .overlay{
         padding: 8px 8px 8px 8px;
@@ -115,7 +115,7 @@ div{
 
 @media screen and (max-width : 768px) {
     .main-title{
-        font-size: 20px;    
+        font-size: 40px;    
     }
     .overlay>p{
         padding: 6px 6px 6px 6px;
