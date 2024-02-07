@@ -23,6 +23,7 @@ div{
 .main-title{
     text-align: center;
     font-size: 60px;
+    font-weight: bold;
     color: white;
     margin-top: 200px;
     -webkit-text-stroke: 1px black;
@@ -93,7 +94,8 @@ div{
     overflow: hidden;
     line-height: 2.0;
     color: white;
-    text-align: center;
+    text-align: left;
+    box-sizing: border-box;
 }
 
 .overlay:hover{
@@ -108,7 +110,7 @@ div{
         font-size: 50px;    
     }
     .overlay{
-        padding: 8px 8px 8px 8px;
+        padding: 5px 5px 5px 5px;
         font-size: 14px;
     }  
 }
@@ -117,8 +119,8 @@ div{
     .main-title{
         font-size: 40px;    
     }
-    .overlay>p{
-        padding: 6px 6px 6px 6px;
-        font-size: 12px;
+    .overlay{
+        padding: 2px 2px 2px 2px;
+        font-size: 10px;
     }  
 }
